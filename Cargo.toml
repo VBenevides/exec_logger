@@ -1,0 +1,14 @@
+[package]
+name = "exec_logger"
+version = "0.1.0"
+edition = "2021"
+authors=["Vinicius Benevides massaki1999@gmail.com"]
+license="MIT"
+description="A logging library focused on organizing logs per execution with automatic housekeeping"
+keywords=["log", "execution", "housekeeping"]
+
+[dependencies]
+arc-swap = "1.7.1"
+chrono = "0.4.38"
+once_cell = "1.20.2"
+whoami = "1.5.2"
