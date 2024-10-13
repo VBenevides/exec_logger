@@ -1,6 +1,6 @@
 [package]
 name = "exec_logger"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors=["Vinicius Benevides massaki1999@gmail.com"]
 repository="https://github.com/VBenevides/exec_logger"
@@ -9,6 +9,7 @@ description="A logging library focused on organizing logs per execution with aut
 keywords=["log", "execution", "housekeeping"]
 
 [dependencies]
+anyhow = "1.0.89"
 arc-swap = "1.7.1"
 chrono = "0.4.38"
 once_cell = "1.20.2"
