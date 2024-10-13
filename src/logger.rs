@@ -6,7 +6,7 @@ use std::io::Write;
 use std::path::Path;
 use std::path::PathBuf;
 
-#[derive(Clone)]
+#[derive(Clone, Debug)]
 pub struct Logger {
     config: LoggerConfiguration,
     log_file_path: PathBuf,
